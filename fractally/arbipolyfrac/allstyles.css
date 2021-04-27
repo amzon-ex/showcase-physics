@@ -1,0 +1,74 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+button {
+	background-color: transparent;
+	border-width: 3px;
+	border-color: #000;
+	font-weight: 700;
+	font-size: 95%;
+}
+
+button:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+#desc {
+	padding: 10px;
+	padding-top: 0px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #000;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  float: left;
+  width: 50%;
+  height: 20px; /* Specified height */
+  background: #BBB; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.75; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .15s; /* 0.1 seconds transition on hover */
+  transition: opacity .15s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* Browser-spcific customisations of the slider handle */
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #333;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #333;
+  cursor: pointer;
+}
+
+#sliderval {
+	float: left;
+	margin-top: 2px;
+	width: 40px;
+	height: 20px;
+	background-color: #333;
+	color: #FFF;
+	text-align: center;
+	line-height: 20px;	/* setting equal to the div height vertical-centers text*/
+	font-size: 75%;
+}
