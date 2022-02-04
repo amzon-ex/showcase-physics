@@ -1,7 +1,7 @@
 # Showcase of some Physics sims/anims
 
-- Epicycles: [`/epicycles`](./epicycles/)
-  - Drawing Maa Durga with Fourier Transforms: using epicycles: [**animation**](./epicycles/durga_epicycles/durga_epicycles.html)
+- Visualizing Fourier frequencies with epicycles: [`/epicycles`](./epicycles/)
+  - Drawing Maa Durga with Fourier Transforms: [**animation**](./epicycles/durga_epicycles/durga_epicycles.html)
 
 - Stuff relating to a double pendulum: [`/double-pendulum`](./double-pendulum/)
   - A double pendulum animation to explore the chaotic regime: [**code**](./double-pendulum/basic/) | [**animation**](https://editor.p5js.org/amzon-ex/sketches/-2uDMa5rV) (editable)
